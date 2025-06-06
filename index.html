@@ -9,3 +9,99 @@
 
   <script src="js/index.js"></script>
 </body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Styleguide</title>
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+  <section>
+    <h1>Typography</h1>
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <p>Paragraph text. <strong>Bold</strong>, <em>Italic</em>, <a href="#">Link</a></p>
+    <blockquote>Blockquote text.</blockquote>
+    <code>Inline code</code>
+    <pre><code>Preformatted block</code></pre>
+  </section>
+
+  <section>
+    <h1>Buttons</h1>
+    <img class="primary_active" src="images/button1.png" alt="">
+    <img class="primary_hover" src="images/button1_hover.png" alt="">
+    <img class="primary_inactive" src="images/button1_inactive.png" alt="">
+    <img class="secondary_active" src="images/button2_active.png" alt="">
+    <img class="secondary_hover" src="images/button2_hover.png" alt="">
+    <img class="secondary_active" src="images/button2 (2).png" alt="">
+  </section>
+
+  <section>
+    <h1>Forms</h1>
+    <form>
+      <label for="text">Text Input</label>
+      <input type="text" id="text" name="text"><br>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="select">Select</label>
+      <select id="select" name="select">
+        <option>Option 1</option>
+        <option>Option 2</option>
+      </select><br>
+
+      <label><input type="checkbox"> Checkbox</label><br>
+      <label><input type="radio" name="radio"> Radio</label><br>
+
+      <label for="textarea">Textarea</label><br>
+      <textarea id="textarea"></textarea><br>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section>
+    <h1>Lists</h1>
+    <ul>
+      <li>Unordered item</li>
+      <li>Unordered item</li>
+    </ul>
+    <ol>
+      <li>Ordered item</li>
+      <li>Ordered item</li>
+    </ol>
+    <dl>
+      <dt>Term</dt>
+      <dd>Definition</dd>
+    </dl>
+  </section>
+
+  <section>
+    <h1>Tables</h1>
+    <table border="1">
+      <thead>
+        <tr><th>Header 1</th><th>Header 2</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Row 1 Cell 1</td><td>Row 1 Cell 2</td></tr>
+        <tr><td class="bottom_row">Row 2 Cell 1</td><td class="bottom_row">Row 2 Cell 2</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section>
+    <h1>Grid</h1>
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
+      <div><img class="grid_item1" src="images/grid-item1.png" alt=""></div>
+      <div><img class="grid_item2" src="images/gid-item2.png" alt=""></div>
+      <div><img class="grid_item3" src="images/grid-item3.png" alt=""></div>
+    </div>
+  </section>
+
+</body>
+</html>

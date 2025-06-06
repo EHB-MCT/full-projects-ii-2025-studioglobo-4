@@ -1,1 +1,189 @@
+@import url("https://use.typekit.net/xfj4qye.css");
 
+body {
+    padding-left: 15px;
+    padding-bottom: 25px;
+    background-color: #B8D4DA;
+}
+
+h1 {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 15px;
+
+}
+
+h2 {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+
+h3 {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15pt;
+    padding-bottom: 15px;
+
+}
+
+p {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+a {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+}
+
+
+code {
+    font-style: normal;
+    font-family: "madawaska", serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #E37083;
+}
+
+pre {
+    padding-bottom: 15px;
+}
+
+.primary_active {
+    width: 10%;
+
+}
+
+.primary_hover {
+    width: 10%;
+}
+
+.primary_hover:hover {
+    transform: translateY(-15px);
+    transition: all, 1s;
+}
+
+.primary_inactive {
+    width: 10%;
+}
+
+.secondary_active {
+    width: 9%;
+}
+
+.secondary_hover {
+    width: 9%;
+}
+
+.secondary_hover:hover {
+    transform: scale(1.05);
+    transition: all, 1s;
+}
+
+.secondary_inactive {
+    width: 9%;
+}
+
+label {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#text {
+    border-color: #D36658;
+}
+
+#email {
+    border-color: #D36658;
+}
+
+#select {
+    border-color: #D36658;
+    border-width: 2px;
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#textarea {
+    border-color: #D36658;
+    border-width: 2px;
+}
+
+button {
+    background-color: #E37083;
+    border-color: #E37083;
+    border-radius: 15px;
+    width: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+li {
+   font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul, ol, dl {
+    padding-bottom: 15px;
+}
+
+dt, dd {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+dt {
+    padding-bottom: 15px;
+}
+
+
+th, td {
+    font-family: "madawaska", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+.bottom_row {
+    padding-bottom: 15px;
+}
+
+
+.grid_item1, .grid_item2, .grid_item3 {
+    width: 80%;
+}

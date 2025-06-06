@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>Styleguide</title>
   <link href="./css/reset.css" rel="stylesheet" type="text/css" />
-  <link href="./css/style.css" rel="stylesheet" type="text/css" />
+  <link href="css/style2.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -21,12 +21,12 @@
 
   <section>
     <h1>Buttons</h1>
-    <button class="primary active">Primary Active</button>
-    <button class="primary hover">Primary Hover</button>
-    <button class="primary inactive">Primary Inactive</button>
-    <button class="secondary active">Secondary Active</button>
-    <button class="secondary hover">Secondary Hover</button>
-    <button class="secondary inactive">Secondary Inactive</button>
+    <img class="primary_active" src="images/button3_active (2).png" alt="">
+    <img class="primary_hover" src="images/button3_hover2.png" alt="">
+    <img class="primary_inactive" src="images/button3_inactive.png" alt="">
+    <button class="secondary_active">Secondary active</button>
+    <button class="secondary_hover">Secondary hover</button>
+    <button class="secondary_inactive">Secondary inactive</button>
   </section>
 
   <section>
@@ -50,7 +50,7 @@
       <label for="textarea">Textarea</label><br>
       <textarea id="textarea"></textarea><br>
 
-      <button type="submit">Submit</button>
+      <button class="submit" type="submit">Submit</button>
     </form>
   </section>
 
@@ -78,7 +78,7 @@
       </thead>
       <tbody>
         <tr><td>Row 1 Cell 1</td><td>Row 1 Cell 2</td></tr>
-        <tr><td>Row 2 Cell 1</td><td>Row 2 Cell 2</td></tr>
+        <tr><td class="bottom_row">Row 2 Cell 1</td><td class="bottom_row">Row 2 Cell 2</td></tr>
       </tbody>
     </table>
   </section>
@@ -86,9 +86,9 @@
   <section>
     <h1>Grid</h1>
     <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;">
-      <div>Grid Item 1</div>
-      <div>Grid Item 2</div>
-      <div>Grid Item 3</div>
+      <div><img class="grid_item1" src="images/kleuter.png" alt=""></div>
+      <div><img class="grid_item2" src="images/lager.png" alt=""></div>
+      <div><img class="grid_item3" src="images/hoger.png" alt=""></div>
     </div>
   </section>
 
