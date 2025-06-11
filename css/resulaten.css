@@ -65,10 +65,16 @@
 		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 
-    .kaart img{
-        width: 1200%;
-        
-    }
+	.kaart img {
+		width: 1200%;
+		height: 90%;
+		margin-bottom: 100%;
+	}
+
+	.kaart h1 {
+		position: absolute;
+		align-items: center;
+	}
 
 	.firstWrapper {
 		width: 90%;
@@ -79,6 +85,4 @@
 		grid-template-rows: repeat(3, minmax(70px, auto));
 		position: relative;
 	}
-
-    .
 }
