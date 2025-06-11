@@ -47,14 +47,16 @@
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(5, minmax(80px, auto));
+		grid-template-rows: repeat(16, minmax(40px, auto));
 		position: relative;
+		color: white;
 	}
 
 	/* Non copied code */
 
 	body {
 		overflow-x: hidden;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
 	}
 
 	.bigTitle1 {
@@ -62,18 +64,35 @@
 		grid-row: 2 / 3;
 		font-size: 16pt;
 		font-weight: 550;
-		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		text-align: center;
+	}
+
+	.kaart {
+		grid-column: 1/ 9;
+		grid-row: 1 / 4;
 	}
 
 	.kaart img {
-		width: 500%;
-		height: 90%;
-		margin-bottom: 100%;
+		width: 150%;
 	}
 
-	.kaart h1 {
-		position: absolute;
-		align-items: center;
+	.participants {
+		grid-row: 5 / 6;
+		font-size: 16pt;
+		font-weight: 550;
+		grid-column: 3 / 13;
+	}
+
+	.participantsText {
+		grid-row: 8 / 12;
+		grid-column: 2 / 12;
+		text-align: center;
+	}
+
+	.number {
+		grid-row: 6 / 12;
+		grid-column: 5 / 12;
+		font-size: 16pt;
 	}
 
 	.firstWrapper {
