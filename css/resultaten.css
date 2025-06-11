@@ -47,7 +47,7 @@
 		margin: 0 auto;
 		display: grid;
 		grid-template-columns: repeat(12, 1fr);
-		grid-template-rows: repeat(16, minmax(40px, auto));
+		grid-template-rows: repeat(16, minmax(20px, auto));
 		position: relative;
 		color: white;
 	}
@@ -90,7 +90,7 @@
 	}
 
 	.number {
-		grid-row: 6 / 12;
+		grid-row: 7 / 12;
 		grid-column: 5 / 12;
 		font-size: 16pt;
 	}
