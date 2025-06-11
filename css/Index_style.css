@@ -192,7 +192,7 @@ header nav ul li a {
     .blue
 
     .intro img {
-    grid-column: 1/7;
+    grid-column: 1/8;
     grid-row: 1/4;
     width: 100%;
     padding-top: 25px;
@@ -205,21 +205,21 @@ header nav ul li a {
 }
 
 .intro-text h1 {
-    font-size: 45px;
+    font-size: 55px;
     padding-bottom: 35px;
 }
 
 .intro-text h2 {
-   font-size: 25px;
+   font-size: 35px;
    padding-bottom: 25px;
 }
 
 .intro-text h3 {
-   font-size: 20px;
+   font-size: 30px;
 }
 
 .blue .intro-text img {
-   width: 50%;
+   width: 70%;
 }
 
 .actie {
