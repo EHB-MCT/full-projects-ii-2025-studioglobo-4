@@ -1625,6 +1625,37 @@ header nav {
   transform: none;
 }
 
-.overscreenshot {
-    width: 95.6;
+
+
+.registrer_page {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+    z-index: -3;
+    
+}
+
+
+
+.waarschuwing_page {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#registreren {
+opacity: 0;
+pointer-events: auto;
+z-index: 1;
+position: relative;
+
+}
+
+#registreren_image {
+    width: 50%;
+    opacity: 0;
+    z-index: -2;
 }

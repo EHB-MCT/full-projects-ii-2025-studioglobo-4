@@ -1625,7 +1625,11 @@ header nav {
   transform: none;
 }
 
-.lesscreenshot {
-    padding-bottom: 200px;
-    padding-top: 200px;
+.intro img {
+    width: 100%;
+    grid-column: 1/11;
+}
+
+#nieuws2 {
+    padding-left: 150px;
 }

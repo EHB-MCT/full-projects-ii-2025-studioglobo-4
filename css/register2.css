@@ -1628,3 +1628,20 @@ header nav {
 .overscreenshot {
     width: 95.6;
 }
+
+
+.verify {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.verify img {
+    width: 1200%;
+    grid-column: 1/2
+}

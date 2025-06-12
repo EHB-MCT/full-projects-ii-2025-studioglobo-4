@@ -3,11 +3,117 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/InternationaalNL.css" rel="stylesheet" type="text/css" />
     <title>Secundair</title>
 </head>
 <body>
-    <div>
-        <img src="images/secudairoption_screenshot.png" alt="">
+    <div class="outer-wrapper green">
+
+        <div class="wrapper1">
+            <div id="grid">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div id="menuToggle">
+                  <input type="checkbox" id="menuCheckbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <li>
+                      <a href="index.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="Qualities.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Registreren</label>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Meer info</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Lesmateriaal</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Resulataten</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Nieuws</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="About.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Contact</label>
+                        </a>
+                      </li>
+                  </ul>
+                </div>
+        <header>
+            <img src="images_website/image.png" alt="#">
+            <nav>
+                <ul>
+                    <li><a href="Tot nu.html">Tot nu</a></li>
+                    <li><a href="#">Over</a></li>
+                    <li><a href="#">Nieuws</a></li>
+                    <li><a href="#">Lesmateriaal</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        </div>
+    </div>
+    <div class="firstText">
+    <h1>Secundair Onderwijs</h1>
+    <h2>Hier kunnen jullie verschillende lesmaterialen voor hetsecundair onderwijs terugvinden en downloaden.</h2>
+    </div>
+    <!-- this should be drop down menu -->
+    <div class="dropdown">
+        <h2>Lessen</h2>
+        <div class="dropdown-content">
+        <img src="images_website/les.png" alt="#" width="500" height="1000">
+        <div class="desc">Download hier verschillende lessen.</div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <h2>Beeld</h2>
+        <div class="dropdown-content">
+        <img src="images_website/beeld.png" alt="#" width="500" height="1000">
+        <div class="desc">Download hier verschillende beelden.</div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <h2>Lied</h2>
+        <div class="dropdown-content">
+        <img src="images_website/lied.png" alt="#" width="500" height="1000">
+        <div class="desc">Download hier verschillende lieden.</div>
+        </div>
+    </div>
+    <div class="dropdown">
+        <h2>Video</h2>
+        <div class="dropdown-content">
+        <img src="images_website/video.png" alt="#" width="500" height="1000">
+        <div class="desc">Download hier verschillende videos.</div>
+        </div>
     </div>
 </body>
 </html>
