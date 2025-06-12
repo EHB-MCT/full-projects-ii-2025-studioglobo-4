@@ -156,7 +156,7 @@
 			margin: 0 auto;
 			display: grid;
 			grid-template-columns: repeat(12, 1fr);
-			grid-template-rows: repeat(16, minmax(50px, auto));
+			grid-template-rows: repeat(16, minmax(70px, auto));
 			position: relative;
 			color: white;
 		}
@@ -164,10 +164,11 @@
 		.galleryTitle {
 			text-align: center;
 			grid-column: 2 / 12;
-			padding-top: 10%;
+			padding-top: 15%;
+			padding-bottom: 7%;
 		}
 		.galleryTitle h1 {
-			font-size: 40pt;
+			font-size: 20pt;
 			font-weight: 550;
 			padding-bottom: 5%;
 		}
@@ -177,12 +178,12 @@
 		}
 
 		.gallery {
-			grid-row: 9 / 13;
+			grid-row: 2 / 16;
+			grid-column: 2 / 12;
 		}
-
-		.gallery2 img {
-			width: 30%;
-			grid-row: 8 / 13;
+		.gallery img {
+			width: 100%;
+			padding-top: 5%;
 		}
 	}
 }
