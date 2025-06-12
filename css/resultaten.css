@@ -1,6 +1,24 @@
 @media screen and (max-width: 480px) {
 	/* Copied code */
 
+	.wrapper7 {
+		width: 1424px;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(2, minmax(100px, auto));
+		position: relative;
+	}
+
+	.footer {
+		grid-column: 1/12;
+		grid-row: 2;
+		display: grid;
+	}
+
+	.green {
+		width: 1424px;
+	}
+
 	.green {
 		background-color: #3fa461;
 		width: 100%;
