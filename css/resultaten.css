@@ -107,4 +107,78 @@
 		grid-template-rows: repeat(3, minmax(70px, auto));
 		position: relative;
 	}
+
+	.thirdWrapper {
+		width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(16, minmax(50px, auto));
+		position: relative;
+		color: white;
+	}
+
+	.kaart2 {
+		grid-column: 1/ 13;
+		padding-top: 15%;
+	}
+
+	.kaart2 img {
+		width: 100%;
+	}
+
+	.diplomaTitle {
+		grid-column: 1 / 13;
+		grid-row: 2 / 3;
+		font-size: 40pt;
+		font-weight: 550;
+		text-align: center;
+		padding-bottom: 20pt;
+		padding-top: 10%;
+	}
+
+	.diplomaNumber {
+		grid-row: 8 / 12;
+		grid-column: 5 / 12;
+		font-size: 40pt;
+		text-align: center;
+		padding-bottom: 5%;
+	}
+
+	.diplomaText {
+		text-align: center;
+		font-size: 14pt;
+		padding-left: 5%;
+		padding-right: 5%;
+		padding-bottom: 15%;
+	}
+
+	.wrapper4 {
+		width: 100%;
+		margin: 0 auto;
+		display: grid;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-rows: repeat(16, minmax(50px, auto));
+		position: relative;
+		color: white;
+	}
+
+	.galleryTitle {
+		text-align: center;
+		grid-column: 2 / 12;
+		padding-top: 10%;
+	}
+	.galleryTitle h1 {
+		font-size: 40pt;
+		font-weight: 550;
+		padding-bottom: 5%;
+	}
+
+	.galleryTitle p {
+		font-size: 14pt;
+	}
+
+	.gallery {
+		grid-row: 9 / 13;
+	}
 }
