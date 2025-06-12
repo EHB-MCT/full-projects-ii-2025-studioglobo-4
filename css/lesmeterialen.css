@@ -11,7 +11,7 @@ font-weight: 600;
 font-style: normal;
 }
 
-h2, h3, a {
+h2, h3, a, p {
 font-family: "roboto Slab", serif;
 font-weight: 400;
 font-style: normal;
@@ -1469,9 +1469,91 @@ header nav {
     display: none;
 }
 
+.lesmateriaal-titel1 p {
+    padding-bottom: 45px;
+}
 
 }
 
+
+h1, p {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 16pt;
+}
+
+.niveau {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative; 
+
+}
+
+#kleuter {
+    grid-column: 3/6;
+    width: 100%;
+}
+
+#lager {
+    grid-column: 8/11;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#secundair {
+    grid-column: 3/6;
+    grid-row: 2;
+    width: 100%;
+}
+
+#hogeschool {
+    grid-column: 8/11;
+    grid-row: 2;
+    width: 100%;
+}
+
+.talen {
+    width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative; 
+
+}
+
+#dutch {
+    grid-column: 3/6;
+    width: 100%;
+}
+
+#english {
+    grid-column: 8/11;
+    width: 100%;
+    padding-bottom: 40px;
+}
+
+#french {
+    grid-column: 3/6;
+    grid-row: 2;
+    width: 100%;
+}
+
+#spanish {
+    grid-column: 8/11;
+    grid-row: 2;
+    width: 100%;
+}
 
 #menuToggle
 {
@@ -1625,7 +1707,3 @@ header nav {
   transform: none;
 }
 
-.lesscreenshot {
-    padding-bottom: 200px;
-    padding-top: 200px;
-}
