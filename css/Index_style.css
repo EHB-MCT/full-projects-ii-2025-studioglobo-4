@@ -464,9 +464,9 @@ header nav ul li a {
     .blue
 
 .intro img {
-    grid-column: 8/12;
+    grid-column: 8/11;
     grid-row: 2;
-    width: 165%;
+    width: 175%;
     padding-top: 75px;
 }
 
@@ -1151,35 +1151,32 @@ header nav {
 
 .footer {
     display: grid;
-    grid-template-columns: repeat(12, 1fr); /* 12 colonnes égales */
-    grid-column: 1 / -1;
+    grid-template-columns: repeat(12, 1fr); 
     grid-row: 1;
-    align-items: center; /* aligne verticalement */
-    padding-top: 50px;
+    align-items: center;
     padding-bottom: 50px;
 }
 
 #facebook {
-    grid-column: 2/3; /* colonne 1 à 2 */
+    grid-column: 2/3;
     width: 80%;
 }
 
 #disclaimer {
-    grid-column: 4 / 5; /* colonne 4 à 5 */
-    width: 200%;
+    grid-column: 4 / 5;
     grid-row: 1;
     padding-left: 20px;
 }
 
 #privacy {
-    grid-column: 8 / 9; /* colonne 6 à 7 */
+    grid-column: 8 / 9;
         grid-row: 1;
     width: 200%;
     padding-left: 20px;
 }
 
 #dieKeure {
-    grid-column: 11 / 12; /* colonne 9 à 10 */
+    grid-column: 11 / 12;
     width: 100%;
     padding-left: 20px;
 }
@@ -1295,7 +1292,7 @@ header nav {
 }
 
 .actie-text img {
-    width: 30%;
+    width: 40%;
     padding-bottom: 50px;
 }
 

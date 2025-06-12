@@ -1626,5 +1626,7 @@ header nav {
 }
 
 .overscreenshot {
-    width: 95.6;
+    width: 100%;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
