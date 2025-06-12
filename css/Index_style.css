@@ -675,7 +675,7 @@ header nav ul li a {
 
 }
 
-@media screen and (min-width: 700px) and (max-width: 1200px) {
+@media screen and (min-width: 700px) and (max-width: 1400px) {
    header img {
     grid-column: 2/4;
     align-self: center;
@@ -919,7 +919,7 @@ header nav {
 
 }
 
-@media screen and (min-width:1423px) and (max-width: 1424px) {
+@media screen and (min-width:1401px) and (max-width: 1424px) {
    header img {
     grid-column: 1/3;
     align-self: center;
