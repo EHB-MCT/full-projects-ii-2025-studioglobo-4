@@ -17,16 +17,8 @@ font-weight: 400;
 font-style: normal;
 }
 
-.green {
-    width: 1424px;
-}
-
-.blue {
-    width: 1424px;
-}
 
 .wrapper1 {
-    width: 1424px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, minmax(100px, auto));
