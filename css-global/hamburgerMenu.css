@@ -1,3 +1,52 @@
+
+#menuToggle
+{
+  display: none;
+  /* You can also use relative/absolute here if you want to stay on the top */
+  position: fixed;
+  top: 50px;
+  left: 50px;
+  
+  z-index: 1;
+  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle a
+{
+  text-decoration: none;
+  color: #fff;
+  
+  transition: color 0.3s ease;
+}
+
+#menuToggle a:hover
+{
+  color: tomato;
+}
+
+
+#menuToggle input
+{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;
+  
+  cursor: pointer;
+  
+  opacity: 0; /* hide this */
+  z-index: 2; /* and place it over the hamburger */
+  
+  -webkit-touch-callout: none;
+}
+
+/*
+ * Just a quick hamburger
+ */
 #menuToggle span
 {
   display: block;
@@ -102,6 +151,7 @@
   transform: none;
 }
 
+
 #grid {
     position: absolute;
     display: none;
@@ -117,4 +167,6 @@
     opacity: 0.2;
 
 }
+
+
 

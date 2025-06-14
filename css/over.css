@@ -45,49 +45,6 @@ font-style: normal;
 
 
 
-header {
-    grid-column: 1/13;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-
-}
-
-header nav {
-    grid-column: 7/12;
-    align-self: center;
-    grid-row: 1/2;
-
-}
-
-header nav ul {
-    margin: 0;
-    padding: 0;
-    float: right;
-
-}
-
-header nav ul li {
-    display: inline;
-    padding-left: 10px;
-    
-
-}
-
-header nav ul li a {
-    display: inline-block;
-    transition: color 0.5s, transform 0.5s;
-    transition-timing-function: ease-in;
-    color: white;
-    text-decoration: none;
-
-}
-
-header nav ul li a:hover {
-    transform: translateY(-10px);
-    color: #000066;
-
-}
-
 .green {
     background-color: #3FA461;
     width: 1424px;

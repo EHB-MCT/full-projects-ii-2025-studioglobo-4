@@ -1,0 +1,18 @@
+.intro-text {
+    grid-column: 8/11;
+    align-items: center;
+}
+
+.intro img {
+    grid-column: 2/5;
+    width: 150%;
+    padding-top: 10%;
+}
+
+.intro {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative; 
+}
