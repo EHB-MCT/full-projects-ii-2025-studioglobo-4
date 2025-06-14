@@ -65,42 +65,40 @@
 
 
 
-
-
-
 /*  */
 /* Font */
 /*  */
 
 body {
-	font-family: Arial, Helvetica, sans-serif;
 	overflow-x: hidden;
 }
 
 p {
-	font-size: 16pt;
+	font-size: 20pt;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 h3 {
-	font-family: "Roboto-Slab";
+	font-family: "arial", serif;
 	font-size: 16pt;
-	font-weight: 900;
+	font-weight: 500;
 }
 
 h2 {
-	font-family: "Roboto-Slab";
-	font-size: 20pt;
-	font-weight: 900;
+	font-family: "arial", serif;
+	font-size: 24pt;
+	font-weight: 500;
 }
 
 h1 {
-	font-family: "Roboto-Slab";
-	font-size: 24pt;
+	font-family: "madawaska", serif;
+	font-size: 38pt;
 	font-weight: 900;
 }
 
 a {
 	text-decoration: none;
+	font-family: "madawaska", serif;
 }
 
 
@@ -160,7 +158,63 @@ header nav ul li a:hover {
 
 
 header img {
-	width: 100%;
+	width: 90%;
+	padding-left: 20%;
+}
+
+.footer img {
+    width: 200%;
+}
+
+#facebook {
+    grid-column: 3;
+    width: 150%;
+}
+
+#privacy {
+    width: 400%;
+    grid-column: 8;
+}
+
+#disclaimer {
+    width: 400%;
+    grid-column: 14;
+}
+
+#dieKeure {
+    grid-column: 21/22;
+}.footer img {
+    width: 200%;
+}
+
+#facebook {
+    grid-column: 3;
+    width: 150%;
+}
+
+#privacy {
+    width: 400%;
+    grid-column: 7;
+}
+
+#disclaimer {
+    width: 400%;
+    grid-column: 14;
+}
+
+#dieKeure {
+    grid-column: 21/22;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr); /* 12 colonnes égales */
+	grid-template-rows: repeat(2, 1fr);
+    grid-column: 1 / -1;
+    grid-row: 1;
+    align-items: center; /* aligne verticalement */
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 

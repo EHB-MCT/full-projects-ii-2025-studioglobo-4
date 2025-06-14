@@ -1,7 +1,31 @@
 .intro-text {
-    grid-column: 8/11;
-    align-items: center;
+    grid-column: 8/12;
+    
 }
+
+
+#registreren_button {
+    width: 45%;
+    grid-column: 6 / 7;
+    padding-left: 5%;
+}
+
+#meerInfoButton {
+    width: 60%;
+    padding-top: 10%;
+}
+
+#resultatenButton {
+    width: 50%;
+}
+
+#materialenButton {
+    width: 60%;
+    padding-top: 10%;
+}
+
+
+
 
 .intro img {
     grid-column: 2/5;
@@ -9,10 +33,136 @@
     padding-top: 10%;
 }
 
+
+
+.intro-text h1, h2 {
+    grid-column: 8/12;
+    padding-bottom: 3%;
+    
+}
+
+.actie {
+    background-image: url(../images_website/arm1V2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+}
+
+.actie-text {
+    grid-column: 3 / 8;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    
+}
+
+.actie-text h1, h3 {
+   padding-bottom: 5%;
+}
+
+.map {
+    background-image: url(../images_website/map.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 50%;
+}
+
+.map-text {
+    grid-row: 2;
+    grid-column: 11/17;
+}
+
+
+.map-text h1, h3 {
+    padding-bottom: 3%;
+}
+
+.materiaal {
+    background-image: url(../images_website/arm2Flipped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+}
+
+
+.materiaal-text {
+    grid-column: 3 / 8;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.materiaal-text h1 {
+    padding-bottom: 5%;
+}
+
+
+.outro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.outro img {
+    width: 500%;
+    padding-left: 100%;
+}
+
+.outro-text {
+    grid-column: 9 / 17;
+}
+
+.outro-text h1 {
+    padding-bottom: 3%;
+}
+
+
+/*  GRIDS IN */
+
+
 .intro {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(1, minmax(100px, auto));
-    position: relative; 
+    position: relative;
+    align-items: center;
 }
+
+.actie {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.map {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+
+}
+
+.materiaal {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.outro {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+/* GRIDS OUT */

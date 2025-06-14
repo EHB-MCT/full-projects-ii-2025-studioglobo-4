@@ -174,14 +174,7 @@ header nav ul li a {
     transform: scale(1.1);
 }
 
-.wrapper3 {
-   width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(17, 1fr);
-    grid-template-rows: repeat(1, minmax(100px, auto));
-    position: relative; 
-}
+
 
 
 .wrapper4 {
