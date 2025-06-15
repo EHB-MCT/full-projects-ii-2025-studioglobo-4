@@ -4,7 +4,7 @@
   display: none;
   /* You can also use relative/absolute here if you want to stay on the top */
   position: fixed;
-  top: 50px;
+  top: 40px;
   left: 50px;
   
   z-index: 1;
@@ -23,7 +23,7 @@
 
 #menuToggle a:hover
 {
-  color: tomato;
+  color: #abd7ec;
 }
 
 
@@ -50,9 +50,9 @@
 #menuToggle span
 {
   display: block;
-  width: 75px;
-  height: 10px;
-  margin-bottom: 15px;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
   position: relative;
   
   background: #cdcdcd;
@@ -112,18 +112,18 @@
 #menu
 {
   position: absolute;
-  max-width: 700px;
+  max-width: 400px;
   width: 100vw;
-  max-height: 200vh;
+  max-height: 100vh;
   margin: -100px 0 0 -50px;
   padding: 50px;
   padding-top: 125px;
   box-sizing: border-box;
   overflow-y: auto;
-  background: #3FA461;
+  background: #27994fd3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  opacity: 90%;
+  opacity: 85%;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
@@ -135,7 +135,7 @@
 #menu li
 {
   padding: 10px 0;
-  font-size: 70px;
+  font-size: 25pt;
 }
 
 #menu li label
@@ -167,6 +167,4 @@
     opacity: 0.2;
 
 }
-
-
 
