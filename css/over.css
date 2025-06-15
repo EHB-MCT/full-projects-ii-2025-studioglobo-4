@@ -1,0 +1,175 @@
+/* Grids IN */
+
+.intro {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+}
+
+.info {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.infoImages {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.info2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.infoImages2 {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.studioGlobo {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.sponsors {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, minmax(20px, auto));
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+/* Grids OUT */
+
+
+
+
+.intro {
+    background-image: url(../images_website/main\ logo.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 30%;
+    margin-left: 15%;
+    
+}
+
+
+.introLogo img {
+    display: none;
+}
+
+.introText h1 {
+    padding-bottom: 5%;
+}
+.introText {
+    grid-column: 7 /11 ;
+    grid-row: 5;
+}
+
+.intro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+
+.infoText {
+    grid-column: 2 / 12;
+    grid-row: 6;
+}
+
+.info2Text {
+    grid-column: 2 / 12;
+    grid-row: 6;
+
+}
+
+
+.graph {
+    grid-column: 2 / 3;
+    grid-row: 6;
+
+}
+
+.graph {
+    width: 200%;
+}
+
+.sint {
+    grid-column: 8 /10;
+    grid-row: 6;
+}
+
+.infoImages img {     
+    width: 200%;
+}
+
+.infoImages2 img {     
+    width: 200%;
+}
+
+.tabel {
+    grid-column: 2 / 4;
+    grid-row: 1;
+}
+
+.arm {
+    grid-column: 10;
+}
+
+.arm img {
+    width: 300%;
+}
+
+
+.studioGloboText {
+    grid-column: 2 / 5;
+
+}
+
+.studioGloboLogo img {
+    width: 160%;
+}
+
+
+.studioGloboLogo {
+    grid-column: 2;
+    grid-row: 5;
+}
+
+
+.sponsorsText {
+    grid-column: 2;
+    grid-row: 5;
+    list-style-type: circle;
+}
+
+ul.li.p {
+    list-style-type: circle;
+    
+}
