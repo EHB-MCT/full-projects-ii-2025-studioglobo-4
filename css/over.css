@@ -33,15 +33,17 @@
     grid-template-rows: repeat(12, minmax(20px, auto));
     position: relative;
     align-items: center;
+    z-index: -1;
 }
 
 .infoImages2 {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(12, minmax(20px, auto));
+    grid-template-rows: repeat(6, minmax(20px, auto));
     position: relative;
     align-items: center;
+    z-index: 2;
 }
 
 .studioGlobo {
@@ -129,22 +131,36 @@
     width: 200%;
 }
 
+.InfoBackground2 {
+    background-image: url(../images_website/blue_hand.png);
+    background-repeat: no-repeat;
+    background-size: 40%;
+    background-position: right;
+    background-position-y: 200%;
+
+    z-index: 3;
+}
+
 .infoImages2 img {     
     width: 200%;
 }
 
 .tabel {
     grid-column: 2 / 4;
-    grid-row: 1;
 }
 
+.tabel img {
+padding-top: 40%;
+}
 .arm {
-    grid-column: 10;
+    grid-column: 8;
 }
 
 .arm img {
-    width: 300%;
+    width: 500%;
 }
+
+
 
 
 .studioGloboText {
@@ -162,14 +178,67 @@
     grid-row: 5;
 }
 
+.sponsors {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+
+
+}
 
 .sponsorsText {
-    grid-column: 2;
-    grid-row: 5;
-    list-style-type: circle;
+    
+    grid-column: 2 / 12;
+    grid-row: 6;
+
 }
 
-ul.li.p {
-    list-style-type: circle;
+.sponsorsText p {
+    padding-bottom: 2%;
+}
+
+ul.sponsorList{
+    list-style-type: disc;
     
 }
+
+
+
+@media screen and (max-width: 480px) {
+
+
+    .intro {
+    background-size: 50%;
+    margin-left: 5%;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+    .introText {
+        padding-left: 0%;
+        grid-column: 8 / 12;
+
+    }
+
+    .graph {
+        display: none;
+        grid-column: 12;
+        width: 0px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 680px) {
+
+    h1 {
+        font-size: 20pt;
+    }
+
+    p {
+        font-size: 12pt;
+    }
+
+
+    
+}
+

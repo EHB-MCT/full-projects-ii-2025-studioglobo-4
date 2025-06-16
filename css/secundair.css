@@ -4,8 +4,19 @@ h1, h2, h3, p {
     padding-top: 5%;
 }
 
-h2 {
-    padding-bottom: 5%;
+
+.footer h1, h2, h3, p, a{
+    padding-top: 0.2%;
+    padding-bottom: 0.1%;
+}
+
+
+.footer h2{
+    text-align: left;
+}
+
+h3 {
+    padding-top: 5%;
 }
 
 
@@ -23,7 +34,7 @@ h2 {
 
 .dropdownLessen {
   position: absolute;
-  grid-column: 4/6;
+  grid-column: 5;
 }
 
 .dropdownBeeld {
@@ -34,7 +45,7 @@ h2 {
 
 .dropdownLied {
   position: absolute;
-  grid-column: 4/6;
+  grid-column: 5;
 }
 
 .dropdownVideo {
@@ -123,4 +134,37 @@ h2 {
 .dropdownVideo:hover .dropbtn2 {
   background-color: #3e8e41;
 
+}
+
+
+.footer {
+  z-index: 1;
+}
+
+@media screen and (max-width: 480px) {
+
+  .dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 250%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropbtn {
+  background-color: #57b0d9d8;
+  color: white;
+  padding: 5%px;
+  font-size: 10pt;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdownButtons {
+  padding-bottom: 40%;
+
+}
+
+ 
 }

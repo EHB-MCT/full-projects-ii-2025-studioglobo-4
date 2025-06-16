@@ -1,0 +1,109 @@
+.contact {
+    background-image: url(../images_website/light_boxVertical.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 40%;
+}
+
+.contact {
+    grid-template-columns: repeat(24, 1fr); 
+	grid-template-rows: repeat(1 ,1fr);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+
+}
+
+.contact-text{
+    grid-column: 3/8;
+    text-align: center;
+}
+
+.contact-text h1, h2, h3, p{
+    padding-bottom: 5%;
+}
+
+
+
+.contact-text img {
+    width: 70%;
+    padding-bottom: 5%;
+}
+
+
+.footer {
+    padding-bottom: 0.1%;
+}
+
+.contact-form {
+    grid-column: 12/22;
+    padding-top: 3%;
+}
+
+
+
+Label {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+#lname, #fname, #subject {
+    padding: 2%;
+    border-radius: 15px;
+    font-size: 16pt;
+    width: 87%;
+    border-color: black;
+    border-width: 2px;
+}
+
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    border-radius: 15px;
+    border-width: 2px;
+    border-color: black;
+    padding: 2%;
+}
+
+
+#submit {
+    padding: 2%;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.contact-faq {
+    grid-template-columns: repeat(24, 1fr); 
+	grid-template-rows: repeat(1 ,1fr);
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: grid;
+
+}
+
+
+.faq-text {
+    grid-column: 2/10;
+}
+
+
+.faq-text h1 {
+    padding-bottom: 5%;
+}
+
+.faq-text h2 {
+    padding-bottom: 3%;
+}
+
+.faq-text p {
+    padding-bottom: 5%;
+}
+
+
+.contact-faq {
+    background-image: url(../images_website/Arm3.png), url(../images_website/Arm4.png);
+    background-repeat: no-repeat;
+    background-position: right top, right bottom;
+    background-size: 20%, 20%;
+}
+

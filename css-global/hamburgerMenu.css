@@ -123,7 +123,7 @@
   background: #27994fd3;
   list-style-type: none;
   -webkit-font-smoothing: antialiased;
-  opacity: 85%;
+  opacity: 95%;
   /* to stop flickering of text in safari */
   
   transform-origin: 0% 0%;
