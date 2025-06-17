@@ -1,14 +1,10 @@
 .gegevens {
     padding-top: 2%;
     padding-bottom: 2%;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    position: relative;
 }
 
 .gegevens h1 {
-    grid-column: 1/7;
-    padding-left: 3%;
+    text-align: center;
 }
 
 .form-inloggen {
@@ -30,34 +26,70 @@ Label {
     font-size: 16pt;
 }
 
-#lname, #fname, #subject {
+
+ #mail, #password {
     padding: 2%;
     border-radius: 15px;
     font-size: 16pt;
     width: 87%;
-    border-color: black;
-    border-width: 2px;
-}
-
-textarea {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16pt;
-    border-radius: 15px;
-    border-width: 2px;
-    border-color: black;
-    padding: 2%;
+    border-color: #27994fd3;
+    border-width: 4px;
+    
 }
 
 
 #submit {
     padding: 2%;
     border-radius: 15px;
-    background-color: white;
+    border-color: #27994fd3;
+    border-width: 4px;
+    font-size: 16pt;
+    grid-column: 6;
 }
 
-select {
-    padding: 3%;
-    border-radius: 15px;
-    padding-bottom: 5%;
 
+.inlog-form form {
+    grid-column: 5/9;
+}
+
+
+.inlog-form form #submit {
+    grid-column: 1;
+}
+
+
+@media screen and (min-width:481px) and (max-width:678px) {
+    #submit, #mail, #password {
+        font-size: 10pt;
+    }
+
+    .inlog-form {
+        padding-top: 23%;
+        padding-bottom: 23%;
+    }
+    
+}
+
+
+@media screen and (min-width:320px) and (max-width: 480px) {
+    #submit, #mail, #password {
+        font-size: 10pt;
+    }
+
+    #submit, #mail, #password {
+        width: 125%;
+    }
+
+
+    .inlog-form form {
+        align-items: center;
+        grid-column: 4/9;
+        
+    }
+
+    .inlog-form {
+        padding-top: 23%;
+        padding-bottom: 23%;
+    }
+    
 }
