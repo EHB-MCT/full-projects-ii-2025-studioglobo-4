@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>lesmaterialen</title>
+    <title>Saved by the bell - lesmaterialen</title>
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/lesmaterialen.css" rel="stylesheet" type="text/css" />
     <link href="css-global/css-global.css" rel="stylesheet" type="text/css" />
@@ -11,6 +11,8 @@
 </head>
 <body>
     <body>
+
+    
 <div class="outer-wrapper green">
             <div id="grid">
             <p></p>
@@ -26,7 +28,7 @@
             <p></p>
             <p></p>
         </div>
-        <div id="menuToggle">
+          <div id="menuToggle">
                   <input type="checkbox" id="menuCheckbox" />
                   <span></span>
                   <span></span>
@@ -53,12 +55,12 @@
                         </a>
                       </li>
                       <li>
-                        <a href="About.html">
-                          <label for="menuCheckbox" onclick="this.parentNode.click();">Resulataten</label>
-                        </a>
+                      <a href="galerij.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Galerij</label>
+                      </a>
                       </li>
                       <li>
-                        <a href="About.html">
+                       <a href="nieuws.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Nieuws</label>
                         </a>
                       </li>
@@ -76,50 +78,53 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="resultaten.html">Resultaten</a></li>
+                    <li><a href="galerij.html">Galerij</a></li>
                     <li><a href="over.html">Over</a></li>
                     <li><a href="nieuws.html">Nieuws</a></li>
-                    <li><a href="Lesmaterialen.html">Lesmateriaal</a></li>
+                    <li><a class="darkBlue" href="Lesmaterialen.html">Lesmateriaal</a></li>
                     <li><a href="contact.html">Contact</a></li>
                      <div class="dropdown">
-                    <a class="dropbtn">Profiel</a>
+                    <a class="dropbtn1">Profiel</a>
                     <div class="dropdown-content">
                     <a href="inloggen.html">Inloggen</a>
                     <a href="register.html">Inschrijven</a>
-                    <a href="#">Profiel bewerken</a>
                     </div>
                     </div>
                 </ul>
             </nav>
         </header>
     </div>
+
+      <div class="omniWrapper">
         <div class="lesmateriaal-titel">
             <h1>Lesmaterialen</h1>
             <p>Kies je onderwijsniveau:</p>
         </div>
 
-        <div class="niveau">
-          <div class="kleuter">
-            <a href="kleuter.html">
+        <div class="niveau" onclick="secretButton()">
+          <div  class="kleuter">
+            <a href="kleuter.html" class="no_access_link">
             <img src="images_website/kleuter_button.png" alt="">
             </a>
           </div>
-          <div class="lager">
+          <div class="lager" onclick="secretButton()">
             <a href="lager.html">
             <img src="images_website/lager_button.png" alt="">
             </a>
           </div>
-          <div class="secundair">
+          <div class="secundair" onclick="secretButton()">
             <a href="secundair.html">
             <img src="images_website/secundair_button.png" alt="">
             </a>
           </div>
-          <div class="hogeschool">
+          <div class="hogeschool" onclick="secretButton()">
             <a href="hogeschool.html">
-            <img src="images_website/hoogschool_button.png" alt="">
+              <img src="images_website/hoogschool_button.png" alt="">
             </a>
           </div>
         </div>
+
+      </div>
 
         <div>
             <h1>Internationaal</h1>
@@ -169,15 +174,18 @@
                                 <li><a  href="contact.html">Contact</a></li>
                               </ul>
                             </nav>
-                              <ul class="contactInfo">
-                                  <li><h2>Tel: 02 520 05 30</h2></li>
-                                  <li><h2>Adress: Huidevettersstraat 165 1000 Brussel</h2></li>
-                                  <li><h2>Website: www.studioglobo.be</h2></li>
+                           <ul class="contactInfo">
+                                  <li><h2>02 520 05 30</h2></li>
+                                  <li><h2>Huidevettersstraat 165 1000 Brussel</h2></li>
+                                  <li><h2>www.studioglobo.be</h2></li>
                             </ul>
                     </footer>
                 </div>
         </section>
 
     </div>
+
+ 
 </body>
+<script src="js/access.js"></script>
 </html>

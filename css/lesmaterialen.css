@@ -1,17 +1,40 @@
 
+/* Grids IN */
+
+
+.talen {
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    position: relative;
+    padding-bottom: 5%;
+}
+
+
+.niveau {
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    position: relative;
+    padding-bottom: 5%;
+}
+
+
+
+/* Grids OUT */
 
 h1, p {
     text-align: center;
-     padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 h1 {
-    padding-top: 10%;
+    padding-top: 5%;
     padding-bottom: 2%;
    
 }
-
-/* Grids OUT */
 
 .kleuter {
      grid-column: 4/6;
@@ -22,13 +45,6 @@ h1 {
 }
 
 
-.niveau {
-     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, minmax(50px, auto));
-    position: relative;
-}
 
 
 .lager {
@@ -58,15 +74,6 @@ h1 {
      width: 100%;
 }
 
-
-.talen {
-     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(2, minmax(50px, auto));
-    position: relative;
-    padding-bottom: 5%;
-}
 
 
 .nederlands {
@@ -102,4 +109,14 @@ h1 {
 
 .spaans a img {
      width: 100%;
+}
+
+
+.omniWrapper {
+      background-image: url(../images_website/bikeHand.png);
+     background-position-y: 0%;
+     background-position-x: 110%;
+     background-size: 30%;
+     background-repeat: no-repeat;
+     
 }

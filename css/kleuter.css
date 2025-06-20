@@ -1,0 +1,190 @@
+@import url("https://use.typekit.net/xfj4qye.css");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap");
+
+/* omega gigachad CSS activities */
+
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #D36658;;
+  margin-bottom: 3%;
+  text-align: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+
+
+.tab {
+    background-image: url(../images_website/kleuterDrawing.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10%;
+    opacity: 90%;
+    
+}
+
+
+
+/* Style the buttons inside the tab */
+
+
+
+.tab button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 20pt;
+  font-family: "madawaska", serif;
+  
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #8e3c31;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #8e3c31;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.tabcontent h1, p {
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.tabcontent h2 {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.tabcontent {
+    padding-left: 5%;
+}
+
+.tabcontent img {
+    width: 40%;
+
+
+}
+
+.firstText {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.firstText h1 {
+    padding-bottom: 3%;
+}
+
+
+.animate-left{
+    position:relative;animation:animateleft 0.4s
+}
+
+
+@keyframes animateleft{
+    from{left:-300px;opacity:0} to{left:0;opacity:1}
+}
+
+
+.elementBox {
+  border-color: #d36658;
+  border-width: 4px;
+  border-style: solid;
+  margin-bottom: 5%;
+  padding-bottom: 4%;
+  width: 40%;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+
+
+/*
+  .elementBox {
+  background-image: url(../images_website/lightRedBox.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%
+}
+*/
+
+
+/* brainfart CSS activities */
+
+.elementBox h2 {
+  font-weight: bold;
+  padding-bottom: 6%;
+  margin-right: 20%;
+
+}
+
+
+.elementBox h3 {
+  font-weight: 550;
+}
+.elementBox p {
+  margin-bottom: 0;
+  padding-bottom: 2%;
+  padding-top: 0%;
+  margin-right: 18%;
+}
+
+
+.elementBox a {
+  font-family: "madawaska";
+  font-weight: bold;
+  font-size: 16pt;
+  color: black;
+  display: inline-block;
+  margin-bottom: 2%;
+}
+
+.elementBox img {
+  padding-bottom: 7%;
+}
+
+.elementBox a:hover {
+  color: #D36658;
+  transform: scale(+105%);
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 678px) {
+  .elementBox {
+    width: 93%;
+  }
+
+  .tab {
+    margin-top: 5%;
+    margin-bottom: 20%;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+  .elementBox {
+    width: 93%;
+  }
+
+    .tab {
+    margin-top: 5%;
+    margin-bottom: 40%;
+  }
+
+
+}

@@ -1,15 +1,15 @@
-<!DOCTYPE html> 
-  <script src="js/index.js"></script>
+<!DOCTYPE html>
 </body>
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Studio Globo - Homepage</title>
+  <title>Saved by the bell - Homepage</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta property="og:title" content="Saved By the Bell - Home">
   <meta property="og:image" content="images_website/image.png">
   <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
   <link href="css-global/css-global.css" rel="stylesheet" type="text/css" />
   <link href="css-global/hamburgerMenu.css" rel="stylesheet" type="text/css" />
   <link href="css/Index_style.css" rel="stylesheet" type="text/css" />
@@ -57,12 +57,12 @@
                         </a>
                       </li>
                       <li>
-                        <a href="About.html">
-                          <label for="menuCheckbox" onclick="this.parentNode.click();">Resulataten</label>
-                        </a>
+                       <a href="galerij.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Galerij</label>
+                      </a>
                       </li>
                       <li>
-                        <a href="About.html">
+                        <a href="nieuws.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Nieuws</label>
                         </a>
                       </li>
@@ -79,18 +79,18 @@
             </a>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="resultaten.html">Resultaten</a></li>
+                    <li><a class="darkBlue" href="index.html">Home</a></li>
+                    <li><a href="galerij.html">Galerij</a></li>
                     <li><a href="over.html">Over</a></li>
                     <li><a href="nieuws.html">Nieuws</a></li>
                     <li><a href="Lesmaterialen.html">Lesmateriaal</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <div class="dropdown">
-                    <a class="dropbtn">Profiel</a>
+                    <a class="dropbtn1">Profiel</a>
                     <div class="dropdown-content">
                     <a href="inloggen.html">Inloggen</a>
                     <a href="register.html">Inschrijven</a>
-                    <a href="#">Profiel bewerken</a>
+                   
                     </div>
                     </div>
                 </ul>
@@ -105,10 +105,10 @@
             <div class="intro-text">
             <h1>Saved by the Bell</h1>
             <h2>VRIJDAG <br>4 OKTOBER 2025</h2>
-            <h3>Laat we de bel extra luid rinkelen. <br>Maak lawaai voor de kinderen <br>die geen onderwijs krijgen.</h2>
-            <h3>Schreeuw voor hen zonder stem.</h3>
+            <h3>Laten we de bel extra luid rinkelen. <br>Dan maken we lawaai voor de kinderen <br>die geen onderwijs krijgen.</h2>
+            <h3>Dan schreeuwen we voor kinderen zonder stem.</h3>
             <a href="register.html">
-            <img id="registreren_button" src="images_website/registreren_button.png" alt="">
+            <img id="registreren_button" src="images_website/button_inschrijven.png" alt="">
             </a>
             </div>
           </div>
@@ -128,14 +128,14 @@
     </div>
     <div class="outer-wrapper blue">
 
-          <div class="map">
+          <div class="maps">
+             <div id="map"></div>
             <div class="map-text">
-            <h1>Huidig aantal deelnemers:</h1>
-            <h2>129 841 792 471</h2>
-            <h3>Op de kaart zie je alle scholen in Vlaanderen die de <br>bellen samen laten rinkelen.</h2>
-            <h3>Schrijf je in en voeg je toe aan meer dan 10.000 <br>tevreden leerkrachten en leerlingen.</h3>
+            <h1>Deelnemers:</h1>
+            <h3>Op de kaart zie je enkele scholen in Vlaanderen die de <br>bellen samen laten rinkelen.</h2>
+            <h3>Schrijf je in en voeg je toe aan een grote groep <br>tevreden leerkrachten en leerlingen.</h3>
             <a href="resultaten.html">
-            <img src="images_website/resultaten_button.png" id="resultatenButton" alt="">
+            <img src="images_website/button_galerij.png" id="resultatenButton" alt="">
             </a>
             </div>
           </div>
@@ -153,7 +153,7 @@
     </div>
     <div class="outer-wrapper blue">
           <div class="outro">
-            <img src="images_website/logo_StudioGlobo.png" alt="">
+            <img src="images_website/StudioGloboWhite.png" alt="">
             <div class="outro-text">
             <h1>Actie van Studio Globo</h1>
             <h3>Het initiatief voor deze actie kwam van Studio Globo, alsook de fundering en uitvoering.</h2>
@@ -177,15 +177,17 @@
                                 <li><a  href="Lesmaterialen.html">Lesmateriaal</a></li>
                                 <li><a  href="contact.html">Contact</a></li>
                               </ul>
-                            </nav>
+                              </nav>
                               <ul class="contactInfo">
-                                  <li><h2>Tel: 02 520 05 30</h2></li>
-                                  <li><h2>Adress: Huidevettersstraat 165 1000 Brussel</h2></li>
-                                  <li><h2>Website: www.studioglobo.be</h2></li>
+                                  <li><h2>02 520 05 30</h2></li>
+                                  <li><h2>Huidevettersstraat 165 1000 Brussel</h2></li>
+                                  <li><h2>www.studioglobo.be</h2></li>
                             </ul>
+                            </div>
                     </footer>
                 </div>
         </section>
-  
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+   <script src="js/map.js"></script>
 </body>
 </html>

@@ -136,7 +136,7 @@
     background-repeat: no-repeat;
     background-size: 40%;
     background-position: right;
-    background-position-y: 200%;
+    background-position-y: -100%;
 
     z-index: 3;
 }
@@ -152,6 +152,7 @@
 .tabel img {
 padding-top: 40%;
 }
+
 .arm {
     grid-column: 8;
 }

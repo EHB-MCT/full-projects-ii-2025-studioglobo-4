@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inloggen</title>
+    <title>Saved by the bell - inloggen</title>
     <link href="./css/reset.css" rel="stylesheet" type="text/css" />
     <link href="css/inloggen.css" rel="stylesheet" type="text/css" />
     <link href="css-global/hamburgerMenu.css" rel="stylesheet" type="text/css" />
@@ -25,44 +25,44 @@
             <p></p>
             <p></p>
         </div>
-        <div id="menuToggle">
+         <div id="menuToggle">
                   <input type="checkbox" id="menuCheckbox" />
                   <span></span>
                   <span></span>
                   <span></span>
                   <ul id="menu">
                     <li>
-                      <a href="index.html">
+                      <a class="darkBlue" href="index.html">
                         <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
                       </a>
                     </li>
                     <li>
-                      <a href="Qualities.html">
+                      <a href="register.html">
                         <label for="menuCheckbox" onclick="this.parentNode.click();">Registreren</label>
                       </a>
                     </li>
                     <li>
-                        <a href="About.html">
+                        <a href="over.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Meer info</label>
                         </a>
                       </li>
                       <li>
-                        <a href="About.html">
+                        <a href="Lesmaterialen.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Lesmateriaal</label>
                         </a>
                       </li>
                       <li>
-                        <a href="About.html">
-                          <label for="menuCheckbox" onclick="this.parentNode.click();">Resulataten</label>
-                        </a>
+                       <a href="galerij.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Galerij</label>
+                      </a>
                       </li>
                       <li>
-                        <a href="About.html">
+                        <a href="nieuws.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Nieuws</label>
                         </a>
                       </li>
                       <li>
-                        <a href="About.html">
+                        <a href="contact.html">
                           <label for="menuCheckbox" onclick="this.parentNode.click();">Contact</label>
                         </a>
                       </li>
@@ -75,17 +75,17 @@
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="resultaten.html">Resultaten</a></li>
+                    <li><a href="galerij.html">Galerij</a></li>
                     <li><a href="over.html">Over</a></li>
                     <li><a href="nieuws.html">Nieuws</a></li>
-                    <li><a href="Lesmaterialen.html">Lesmateriaal</a></li>
+                    <li><a id="secretBtn" href="Lesmaterialen.html">Lesmateriaal</a></li>
                     <li><a href="contact.html">Contact</a></li>
                      <div class="dropdown">
-                    <a class="dropbtn">Profiel</a>
+                    <a class="dropbtn1, darkBlue">Profiel</a>
                     <div class="dropdown-content">
                     <a href="inloggen.html">Inloggen</a>
                     <a href="register.html">Inschrijven</a>
-                    <a href="#">Profiel bewerken</a>
+                  
                     </div>
                     </div>
                     </div>
@@ -98,11 +98,12 @@
       <h1>Gelieve uw gegevens in te vullen:</h1>
     </div>
     <div class="inlog-form lightBlue">
-          <form class="form-inloggen" action="">
-              <input type="email" id="mail" name="mail" placeholder="E-mail" required><br><br>
-              <input type="password" id="password" name="password" placeholder="Wachtwoord" required><br><br>
-              <input type="submit" id="submit" value="Gereed">
-            </form>
+          <form id="authForm lightBlue">
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="password" id="password" placeholder="Password" required>
+            <button id="submit" type="submit">Log In</button>
+          </form>
+          <div id="status"></div>
       </div>
           <div class="outer-wrapper green">
                         <footer class="footer">
@@ -123,11 +124,13 @@
                               </ul>
                             </nav>
                               <ul class="contactInfo">
-                                  <li><h2>Tel: 02 520 05 30</h2></li>
-                                  <li><h2>Adress: Huidevettersstraat 165 1000 Brussel</h2></li>
-                                  <li><h2>Website: www.studioglobo.be</h2></li>
-                        </ul>
+                                  <li><h2>02 520 05 30</h2></li>
+                                  <li><h2>Huidevettersstraat 165 1000 Brussel</h2></li>
+                                  <li><h2>www.studioglobo.be</h2></li>
+                            </ul>
                 </footer>
           </div>
 </body>
+<script src="js/profile.js" ></script>
+<script src="js/access.js" ></script>
 </html>

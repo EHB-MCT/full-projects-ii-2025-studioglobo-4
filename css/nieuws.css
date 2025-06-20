@@ -2,7 +2,7 @@
 
 /* Grids IN */
 
-.wrapper {
+.nieuwsKaartje {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
@@ -10,7 +10,7 @@
     position: relative;
 }
 
-.wrapper2 {
+.nieuwsKaartje2 {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
@@ -20,7 +20,7 @@
 }
 
 
-.wrapper3 {
+.nieuwsKaartje3 {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(24, 1fr);
@@ -34,14 +34,14 @@
 
 
 
-.wrapper {
+.nieuwsKaartje {
     background-image: url(../images_website/newsImage.png), url(../images_website/newsBox.png);
     background-size: 36.05%, 70%;
     background-position-x: 76.2%, center;
     background-position-y: 49.15%, center;
     background-repeat: no-repeat, no-repeat;
     padding-top: 20%;
-    padding-bottom: 10%;
+    padding-bottom: 10%
 
 }
 .nieuwsKaartje {
@@ -50,6 +50,9 @@
     grid-row: 3;
 }
 
+.nieuwsText {
+    grid-column: 6/11;
+}
 
 .nieuwsText h2 {
     font-weight: bold;
@@ -62,7 +65,7 @@
 
 
 
-.wrapper2 {
+.nieuwsKaartje2 {
     background-image: url(../images_website/newsImage2.png), url(../images_website/newsBox2.png);
     background-size: 35.65%, 70%;
     background-position-x: 76.3%, center;
@@ -78,6 +81,9 @@
     grid-row: 3;
 }
 
+.nieuwsText2 {
+    grid-column: 6/11;
+}
 
 .nieuwsText2 h2 {
     font-weight: bold;
@@ -91,7 +97,7 @@
 
 
 
-.wrapper3 {
+.nieuwsKaartje3 {
     background-image: url(../images_website/newsImage3.png), url(../images_website/newsBox2.png);
     background-size: 27.45%, 70%;
     background-position-x: 79%, center;
@@ -107,6 +113,9 @@
     grid-row: 3;
 }
 
+.nieuwsText3 {
+    grid-column: 6/16;
+}
 
 
 .nieuwsText3 h2 {
@@ -116,4 +125,132 @@
 
 .nieuwsText3 h5 {
     padding-bottom: 5%
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+
+
+    .nieuwsKaartje {
+    background-image: url(../images_website/newsBox.png);
+    background-size: 100%;
+    background-position-x: right, center;
+    background-position-y: 49.15%, center;
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+.nieuwsText {
+    grid-column: 2/20;
+    padding-top: 43%;
+
+}
+
+.nieuwsText h2 {
+    font-size: 13pt;
+
+}
+
+.nieuwsText p {
+    font-size: 10pt;
+
+}
+
+
+    .nieuwsKaartje2 {
+    background-image: url(../images_website/newsBox.png);
+    background-size: 120%;
+    background-position-x: right, center;
+    background-position-y: 49.15%, center;
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+.nieuwsText2 {
+    grid-column: 2/20;
+    padding-top: 42%;
+
+}
+
+.nieuwsText2 h2 {
+    font-size: 13pt;
+
+}
+
+.nieuwsText2 p {
+    font-size: 10pt;
+
+}
+
+    .nieuwsKaartje3 {
+    background-image: url(../images_website/newsBox.png);
+    background-size: 150%;
+    background-position-x: right, center;
+    background-position-y: 49.15%, center;
+    background-repeat: no-repeat, no-repeat;
+    padding-top: 20%;
+    padding-bottom: 10%;
+
+}
+
+.nieuwsText3 {
+    grid-column: 2/20;
+    padding-top: 42%;
+
+}
+
+.nieuwsText3 h2 {
+    font-size: 13pt;
+
+}
+
+.nieuwsText3 p {
+    font-size: 10pt;
+
+}
+
+.nieuwsText3 h2 {
+    padding-bottom: 1%;
+}
+
+
+
+}
+
+@media screen and (max-width: 1300px) and (min-width: 0px) {
+    .nieuwsKaartje {
+        background-image: none;
+        
+    }
+    .nieuwsKaartje2 {
+        background-image: none;
+    }
+    .nieuwsKaartje3 {
+        background-image: none;
+    }
+
+    .nieuwsText {
+        background-color: #abd7ec;
+        padding: 10%;
+        grid-column: 5 / 21;
+    }
+
+     .nieuwsText2 {
+        background-color: #6db8dbd8;
+        padding: 10%;
+        grid-column: 5 / 21;
+    }
+
+     .nieuwsText3 {
+        background-color: #6db8dbd8;
+        padding: 10%;
+        grid-column: 5 / 21;
+    }
+    
 }

@@ -1,0 +1,89 @@
+.firstText {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.firstText p {
+    text-align: center;
+    
+}
+
+
+
+.firstText h1, h2, p, img {
+    padding-bottom: 5%;
+}
+
+.firstText img {
+    width: 50%;
+}
+
+.dropbtn {
+  background-color: #57b0d9d8;
+  color: white;
+  padding: 16px;
+  font-size: 38pt;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdownButtons {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+	align-items: center;
+    padding-bottom: 15%;
+}
+
+.dropdownLessen {
+    grid-column: 6;
+}
+
+.dropdown-content2 {
+  display: none;
+  position:relative;
+  background-color: #f9f9f9;
+  min-width: 275%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 h1, img, p {
+  text-align: left;
+  padding-left: 2%;
+}
+
+.dropdown-content2 h1 {
+    font-size: 30pt;
+}
+
+.dropdown-content2 img {
+    width: 70%;
+    padding-top: 5%;
+}
+
+.dropdown-content2 p {
+    padding-bottom: 3%;
+}
+
+
+.dropdown-content2 a:hover {background-color: #f1f1f1}
+
+.dropdownLessen:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdownLessen:hover .dropbtn2 {
+  background-color: #3e8e41;
+
+}

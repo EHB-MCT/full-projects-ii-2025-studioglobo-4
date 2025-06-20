@@ -87,16 +87,21 @@ textarea {
 }
 
 
+
 .faq-text h1 {
-    padding-bottom: 5%;
+    padding-bottom: 7%;
+    padding-top: 5%;
+
 }
 
 .faq-text h2 {
     padding-bottom: 3%;
+        
 }
 
 .faq-text p {
-    padding-bottom: 5%;
+    padding-bottom: 7%;
+    font-style: italic;
 }
 
 

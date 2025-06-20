@@ -3,24 +3,30 @@
     
 }
 
+#map { 
+    height: 80%;
+    grid-column: 2/10;
+    grid-row: 1/4;
+}
 
 #registreren_button {
-    width: 45%;
-    grid-column: 6 / 7;
-    padding-left: 5%;
+    width: 40%;
+    grid-column: 1;
+    padding-left: 0%;
 }
 
 #meerInfoButton {
-    width: 60%;
+    width: 39%;
     padding-top: 10%;
 }
 
 #resultatenButton {
-    width: 50%;
+    width: 45%;
+     padding-top: 10%;
 }
 
 #materialenButton {
-    width: 60%;
+    width: 39%;
     padding-top: 10%;
 }
 
@@ -42,6 +48,7 @@
     grid-column: 8/12;
     padding-bottom: 3%;
     
+    
 }
 
 .actie {
@@ -49,10 +56,12 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 .actie-text {
-    grid-column: 3 / 8;
+    grid-column: 3 / 9;    
     padding-bottom: 10%;
     padding-top: 10%;
     
@@ -63,16 +72,11 @@
 }
 
 .actie-text img:hover {
-     transition: all, ease-out, 0.2s;
+    transition: all, ease-out, 0.2s;
     transform: scale(1.05);
 }
 
-.map {
-    background-image: url(../images_website/map.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
-}
+
 
 .map-text {
     grid-row: 2;
@@ -94,11 +98,13 @@
     background-repeat: no-repeat;
     background-position: right;
     background-size: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
 
 
 .materiaal-text {
-    grid-column: 3 / 8;
+    grid-column: 3 / 9;
     padding-bottom: 10%;
     padding-top: 10%;
 }
@@ -152,7 +158,7 @@
     align-items: center;
 }
 
-.map {
+.maps {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(17, 1fr);
@@ -179,6 +185,8 @@
     position: relative;
     align-items: center;
 }
+
+
 
 
 /* Media queries */
@@ -235,14 +243,7 @@
     background-size: 40%;
     }
 
-    .map {
-    background-image: url(../images_website/map.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
-    }
-
-    .map {
+    .maps {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(17, 1fr);
@@ -276,6 +277,11 @@
 
     .outro img {
         width: 525%;
+    }
+
+    #map {
+        grid-column: 2/8;
+        height: 90%;
     }
 
 }
@@ -332,14 +338,7 @@
     background-size: 40%;
     }
 
-    .map {
-    background-image: url(../images_website/map.png);
-    background-repeat: no-repeat;
-    background-position: left;
-    background-size: 50%;
-    }
-
-    .map {
+    .maps {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(17, 1fr);
@@ -373,5 +372,10 @@
 
     .outro img {
         width: 525%;
+    }
+
+    #map {
+        grid-column: 2/9;
+        height: 100%;
     }
 }
