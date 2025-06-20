@@ -1,0 +1,63 @@
+.verify {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+	align-items: center;
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+
+.verify-text  {
+    grid-column: 5/7;
+}
+
+.verify-text h1 {
+    padding-bottom: 5%;
+}
+
+.verify-text h3 {
+    padding-bottom: 5%;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .verify-text h1 {
+        font-size: 25pt;
+    }
+
+     .verify-text h3 {
+        font-size: 20pt;
+    }
+
+    .verify-text {
+        grid-column: 2/8;
+        
+    }
+
+    .verify {
+        padding-top: 30%;
+        padding-bottom: 30%;
+    }
+}
+
+
+@media screen and (min-width: 481px) and (max-width: 678px) {
+    .verify-text h1 {
+        font-size: 25pt;
+    }
+
+     .verify-text h3 {
+        font-size: 20pt;
+    }
+
+    .verify-text {
+        grid-column: 2/8;
+        
+    }
+
+    .verify {
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+}

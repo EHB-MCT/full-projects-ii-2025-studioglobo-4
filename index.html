@@ -1,11 +1,193 @@
 <!DOCTYPE html>
-
+</body>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <link href="css/reset.css" rel="stylesheet" />
-  <link href="css/style.css" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <title>Saved by the bell - Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta property="og:title" content="Saved By the Bell - Home">
+  <meta property="og:image" content="images_website/image.png">
+  <link href="./css/reset.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+  <link href="css-global/css-global.css" rel="stylesheet" type="text/css" />
+  <link href="css-global/hamburgerMenu.css" rel="stylesheet" type="text/css" />
+  <link href="css/Index_style.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
+<div class="outer-wrapper green">
+            <div id="grid">
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+        <div id="menuToggle">
+                  <input type="checkbox" id="menuCheckbox" />
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                  <ul id="menu">
+                    <li>
+                      <a href="index.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Home</label>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="register.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Registreren</label>
+                      </a>
+                    </li>
+                    <li>
+                        <a href="over.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Meer info</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="Lesmaterialen.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Lesmateriaal</label>
+                        </a>
+                      </li>
+                      <li>
+                       <a href="galerij.html">
+                        <label for="menuCheckbox" onclick="this.parentNode.click();">Galerij</label>
+                      </a>
+                      </li>
+                      <li>
+                        <a href="nieuws.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Nieuws</label>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="contact.html">
+                          <label for="menuCheckbox" onclick="this.parentNode.click();">Contact</label>
+                        </a>
+                      </li>
+                  </ul>
+                </div>
+        <header>
+            <a href="index.html" class="headerImage">
+            <img src="images_website/StudioGloboWhite.png" alt="logoStudioGlobo">        
+            </a>
+            <nav>
+                <ul>
+                    <li><a class="darkBlue" href="index.html">Home</a></li>
+                    <li><a href="galerij.html">Galerij</a></li>
+                    <li><a href="over.html">Over</a></li>
+                    <li><a href="nieuws.html">Nieuws</a></li>
+                    <li><a href="Lesmaterialen.html">Lesmateriaal</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <div class="dropdown">
+                    <a class="dropbtn1">Profiel</a>
+                    <div class="dropdown-content">
+                    <a href="inloggen.html">Inloggen</a>
+                    <a href="register.html">Inschrijven</a>
+                   
+                    </div>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+    </div>
 
+    <div class="outer-wrapper blue">
 
-  <script src="js/index.js"></script>
+          <div class="intro">
+            <img src="images_website/main logo.png" alt="">
+            <div class="intro-text">
+            <h1>Saved by the Bell</h1>
+            <h2>VRIJDAG <br>4 OKTOBER 2025</h2>
+            <h3>Laten we de bel extra luid rinkelen. <br>Dan maken we lawaai voor de kinderen <br>die geen onderwijs krijgen.</h2>
+            <h3>Dan schreeuwen we voor kinderen zonder stem.</h3>
+            <a href="register.html">
+            <img id="registreren_button" src="images_website/button_inschrijven.png" alt="">
+            </a>
+            </div>
+          </div>
+    </div>
+    <div class="actie">
+            <div class="actie-text">
+            <h1>Wat is deze actie?</h1>
+            <h3>Op 4 oktober 2024 laten we de schoolbel extra luid 
+            rinkelen voor Saved by the bell, want elk kind heeft 
+            recht op kwaliteitsvol onderwijs.</h3>
+            
+            <h3>Omdat 5 oktober, de Internationale Dag van de Leerkracht, dit jaar op een zaterdag valt, doen we dit een dagje eerder.</h3>
+            <a href="over.html">
+            <img src="images_website/meerInfo_button.png" id="meerInfoButton" alt="">
+            </a>
+            </div>   
+    </div>
+    <div class="outer-wrapper blue">
+
+          <div class="maps">
+             <div id="map"></div>
+            <div class="map-text">
+            <h1>Deelnemers:</h1>
+            <h3>Op de kaart zie je enkele scholen in Vlaanderen die de bellen samen laten rinkelen.</h3>
+            <h3>Schrijf je in en voeg je toe aan een grote groep tevreden leerkrachten en leerlingen.</h3>
+            <a href="galerij.html">
+            <img src="images_website/button_galerij.png" id="resultatenButton" alt="">
+            </a>
+            </div>
+          </div>
+    </div>
+    <div class="materiaal">
+            <div class="materiaal-text">
+            <h1>Neem deel en krijg <br>gratis lesmateriaal</h1>
+            <h3>We bieden leerkrachten van alle niveau’s gratis online lesmateriaal om te verdelen over hun leerlingen. We hebben modules voor kleuterschool, lagere school, middelbare school, hogeschool en universiteit.</h3>
+            
+            <h3>Nadat je bent ingeschreven, krijg je toegang tot al ons materiaal.</h3>
+             <a href="Lesmaterialen.html">
+            <img src="images_website/materialen_button.png" id="materialenButton" alt="">
+             </a>
+            </div>   
+    </div>
+    <div class="outer-wrapper blue">
+          <div class="outro">
+            <img src="images_website/StudioGloboWhite.png" alt="">
+            <div class="outro-text">
+            <h1>Actie van Studio Globo</h1>
+            <h3>Het initiatief voor deze actie kwam van Studio Globo, alsook de fundering en uitvoering.</h2>
+            </div>
+            </div>
+          </div>
+            <div class="outer-wrapper green">
+                        <footer class="footer">
+                          <a id="facebook" href="https://www.facebook.com/savedbythebellbe/">
+                          <img src="images_website/facebook_whiteV2.png" alt="">
+                          </a> 
+                          <img id="privacy" src="images_website/privacy_button.png" alt="">
+                          <img id="disclaimer" src="images_website/disclaimer_button.png" alt="">
+                          <img id="dieKeure" src="images_website/diekeure_whiteV2.png" alt="">
+                          <nav>
+                            <ul>
+                                <li><a  href="index.html">Home</a></li>
+                                <li><a  href="resultaten.html">Resultaten</a></li>
+                                <li><a  href="over.html">Over</a></li>
+                                <li><a  href="nieuws.html">Nieuws</a></li>
+                                <li><a  href="Lesmaterialen.html">Lesmateriaal</a></li>
+                                <li><a  href="contact.html">Contact</a></li>
+                              </ul>
+                              </nav>
+                              <ul class="contactInfo">
+                                  <li><h2>02 520 05 30</h2></li>
+                                  <li><h2>Huidevettersstraat 165 1000 Brussel</h2></li>
+                                  <li><h2>www.studioglobo.be</h2></li>
+                            </ul>
+                            </div>
+                    </footer>
+                </div>
+        </section>
+      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+   <script src="js/map.js"></script>
 </body>
+</html>

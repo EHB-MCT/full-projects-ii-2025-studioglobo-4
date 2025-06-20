@@ -1,0 +1,122 @@
+
+/* Grids IN */
+
+
+.talen {
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    position: relative;
+    padding-bottom: 5%;
+}
+
+
+.niveau {
+     margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, minmax(50px, auto));
+    position: relative;
+    padding-bottom: 5%;
+}
+
+
+
+/* Grids OUT */
+
+h1, p {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+h1 {
+    padding-top: 5%;
+    padding-bottom: 2%;
+   
+}
+
+.kleuter {
+     grid-column: 4/6;
+}
+
+.kleuter a img {
+     width: 100%;
+}
+
+
+
+
+.lager {
+     grid-column: 8/10;
+}
+
+.lager a img {
+     width: 100%;
+}
+
+.secundair {
+     grid-column: 4/6;
+     grid-row: 2;
+}
+
+.secundair a img {
+     width: 100%;
+}
+
+
+.hogeschool {
+     grid-column: 8/10;
+     grid-row: 2;
+}
+
+.hogeschool a img {
+     width: 100%;
+}
+
+
+
+.nederlands {
+     grid-column: 4/6;
+}
+
+.nederlands a img {
+     width: 100%;
+}
+
+.frans {
+     grid-column: 8/10;
+}
+
+.frans a img {
+     width: 100%;
+}
+
+
+.engels {
+     grid-column: 4/6;
+     grid-row: 2;
+}
+
+.engels a img {
+     width: 100%;
+}
+
+.spaans {
+     grid-column: 8/10;
+     grid-row: 2;
+}
+
+.spaans a img {
+     width: 100%;
+}
+
+
+.omniWrapper {
+      background-image: url(../images_website/bikeHand.png);
+     background-position-y: 0%;
+     background-position-x: 110%;
+     background-size: 30%;
+     background-repeat: no-repeat;
+     
+}

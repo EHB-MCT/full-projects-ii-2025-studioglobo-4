@@ -1,0 +1,381 @@
+.intro-text {
+    grid-column: 8/12;
+    
+}
+
+#map { 
+    height: 80%;
+    grid-column: 2/10;
+    grid-row: 1/4;
+}
+
+#registreren_button {
+    width: 40%;
+    grid-column: 1;
+    padding-left: 0%;
+}
+
+#meerInfoButton {
+    width: 39%;
+    padding-top: 10%;
+}
+
+#resultatenButton {
+    width: 45%;
+     padding-top: 10%;
+}
+
+#materialenButton {
+    width: 39%;
+    padding-top: 10%;
+}
+
+.intro-text img:hover {
+     transition: all, ease-out, 0.2s;
+    transform: scale(1.05);
+}
+
+
+.intro img {
+    grid-column: 2/5;
+    width: 150%;
+    padding-top: 10%;
+}
+
+
+
+.intro-text h1, h2 {
+    grid-column: 8/12;
+    padding-bottom: 3%;
+    
+    
+}
+
+.actie {
+    background-image: url(../images_website/arm1V2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 25%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.actie-text {
+    grid-column: 3 / 9;    
+    padding-bottom: 10%;
+    padding-top: 10%;
+    
+}
+
+.actie-text h1, h3 {
+   padding-bottom: 5%;
+}
+
+.actie-text img:hover {
+    transition: all, ease-out, 0.2s;
+    transform: scale(1.05);
+}
+
+
+
+.map-text {
+    grid-row: 2;
+    grid-column: 11/17;
+}
+
+
+.map-text h1, h3 {
+    padding-bottom: 3%;
+}
+
+.map-text img:hover {
+      transition: all, ease-out, 0.2s;
+    transform: scale(1.05);
+}
+
+.materiaal {
+    background-image: url(../images_website/arm2Flipped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 30%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+
+.materiaal-text {
+    grid-column: 3 / 9;
+    padding-bottom: 10%;
+    padding-top: 10%;
+}
+
+.materiaal-text h1 {
+    padding-bottom: 5%;
+}
+
+.materiaal-text img:hover {
+    transition: all, ease-out, 0.2s;
+    transform: scale(1.05);
+}
+
+
+.outro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.outro img {
+    width: 400%;
+    padding-left: 150%;
+}
+
+.outro-text {
+    grid-column: 9 / 17;
+}
+
+.outro-text h1 {
+    padding-bottom: 3%;
+}
+
+
+/*  GRIDS IN */
+
+
+.intro {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.actie {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.maps {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(3, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+
+}
+
+.materiaal {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+.outro {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+}
+
+
+
+
+/* Media queries */
+
+
+@media screen and (max-width: 480px) {
+    h1 {
+    font-size: 22pt;
+    }
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    h3 {
+        font-size: 10pt;
+    }
+
+    .intro img {
+        width: 150%;
+        grid-column: 1/5;
+    }
+
+    #registreren_button {
+        width: 60%;
+    }
+
+    .intro-text {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        grid-column: 7/13;
+    }
+
+    .actie-text {
+        grid-column: 2/10;
+    }
+
+    #meerInfoButton {
+       width: 75%; 
+    }
+
+
+    .materiaal {
+    background-image: url(../images_website/arm2Flipped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    }
+
+    .actie {
+    background-image: url(../images_website/arm1V2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    }
+
+    .maps {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+
+    .map-text {
+    grid-row: 1;
+    grid-column: 10/17;
+    }
+
+
+    #resultatenButton {
+        width: 85%;
+        padding-top: 10%;
+    }
+
+    .materiaal-text {
+    grid-column: 2 / 10;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    }
+
+    #materialenButton {
+        width: 75%;
+    }
+
+    .outro img {
+        width: 525%;
+    }
+
+    #map {
+        grid-column: 2/8;
+        height: 90%;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 678px) {
+
+    h1 {
+    font-size: 22pt;
+    }
+
+    h2 {
+        font-size: 16pt;
+    }
+
+    h3 {
+        font-size: 10pt;
+    }
+
+    .intro img {
+        width: 150%;
+        grid-column: 1/5;
+    }
+
+    #registreren_button {
+        width: 60%;
+    }
+
+    .intro-text {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        grid-column: 7/13;
+    }
+
+    .actie-text {
+        grid-column: 2/10;
+    }
+
+    #meerInfoButton {
+       width: 75%; 
+    }
+
+
+    .materiaal {
+    background-image: url(../images_website/arm2Flipped.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    }
+
+    .actie {
+    background-image: url(../images_website/arm1V2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    }
+
+    .maps {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(17, 1fr);
+    grid-template-rows: repeat(1, minmax(100px, auto));
+    position: relative;
+    align-items: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    }
+
+    .map-text {
+    grid-row: 1;
+    grid-column: 10/17;
+    }
+
+
+    #resultatenButton {
+        width: 85%;
+        padding-top: 10%;
+    }
+
+    .materiaal-text {
+    grid-column: 2 / 10;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    }
+
+    #materialenButton {
+        width: 75%;
+    }
+
+    .outro img {
+        width: 525%;
+    }
+
+    #map {
+        grid-column: 2/9;
+        height: 100%;
+    }
+}

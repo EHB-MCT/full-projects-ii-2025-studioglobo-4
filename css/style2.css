@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=swap');
+
+body {
+    padding-left: 15px;
+    padding-bottom: 25px;
+    background-color: #A2FCF3;
+}
+
+h1 {
+    font-family: "Syne", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 30px;
+    padding-bottom: 15px;
+
+}
+
+h2 {
+    font-family: "Syne", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 25px;
+    padding-bottom: 15px;
+
+}
+
+h3 {
+    font-family: "Syne", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 15pt;
+    padding-bottom: 15px;
+
+}
+
+p {
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+
+a {
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+}
+
+blockquote {
+    font-style: italic;
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 15px;
+
+}
+
+
+code {
+    font-style: normal;
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+pre {
+    padding-bottom: 15px;
+}
+
+.primary_active {
+    width: 10%;
+
+}
+
+.primary_hover {
+    width: 10%;
+}
+
+.primary_hover:hover {
+    transform: scale(1.05);
+    transition: all, 1s;
+}
+
+.primary_inactive {
+    width: 10%;
+}
+
+.secondary_active {
+    width: 12%;
+    background-color: white;
+}
+
+.secondary_hover {
+    width: 12%;
+    background-color: #A2FCF3;
+}
+
+.secondary_hover:hover {
+    transition: all, 0.5s;
+    background-color: white;
+}
+
+.secondary_inactive {
+    width: 12%;
+    background-color: #A2FCF3;
+}
+
+label {
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#text {
+    border-color: black;
+}
+
+#email {
+    border-color: black;
+}
+
+#select {
+    border-color: black;
+    border-width: 2px;
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#textarea {
+    border-color: black;
+    border-width: 2px;
+}
+
+button {
+    border-color: black;
+    border-radius: 30px;
+    width: 10%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    padding-bottom: 15px;
+    
+}
+
+.submit {
+    background-color: #A2FCF3;
+}
+
+.submit:hover {
+    background-color: white;
+    transition: all, 0.5s;
+}
+
+li {
+   font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+ul, ol, dl {
+    padding-bottom: 15px;
+}
+
+dt, dd {
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+
+dt {
+    padding-bottom: 15px;
+}
+
+
+th, td {
+    font-family: "Syne", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-right: 15px;
+}
+
+th {
+    padding-bottom: 10px;
+}
+
+.bottom_row {
+    padding-bottom: 15px;
+}
+
+
+.grid_item1, .grid_item2, .grid_item3 {
+    width: 60%;
+}
